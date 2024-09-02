@@ -3,7 +3,6 @@ import { editProduct } from "@/store/slices/productsSlice";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FC, useState } from "react";
 import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 
 import { Pencil1Icon } from '@radix-ui/react-icons'
