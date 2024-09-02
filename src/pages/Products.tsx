@@ -31,7 +31,7 @@ const Products: FC = () => {
     }, []);
 
     // Handler
-    const onChangeInput = (e) => {
+    const onChangeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
         if (pageNumber !== 1) {
             navigate(`/products?page=1`)
         }

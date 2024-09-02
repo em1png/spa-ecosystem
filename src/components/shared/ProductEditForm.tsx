@@ -20,7 +20,6 @@ const ProductEditForm: FC<{ product: IProductItem, styles: string }> = ({ produc
 
     // Hooks
     const dispatch = useAppDispatch();
-    const navigate = useNavigate();
 
     // Valid
     const formSchema = z.object({
